@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#E190F6"
+    android:padding="32dp">
+
+    <EditText
+        android:id="@+id/newTaskText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:textSize="24dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:hint="Add New Task - Due Date" />
+
+
+
+    <Button
+        android:id="@+id/newTaskButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/newTaskText"
+        android:textSize="24dp"
+        android:layout_alignParentEnd="true"
+        android:background="@android:color/transparent"
+        android:text="SAVE"
+        android:textStyle="bold"
+        android:textColor="#786A7A" />
+
+</RelativeLayout>
